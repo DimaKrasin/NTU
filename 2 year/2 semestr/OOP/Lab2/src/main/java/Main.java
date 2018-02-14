@@ -40,17 +40,21 @@ public class Main {
         // Виведіть елементи масиву та їх суму на екран.
         System.out.println("Створіть масив з усіх парних чисел від 2 до 30 та знайдіть суму елементів. " +
                 "Виведіть елементи масиву та їх суму на екран.");
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+       // ArrayList<Integer> arr = new ArrayList<Integer>();
+        int[] arr = new int[14];
 
+        int i =2;
+        int summ = 0;
         //Наповнення
-        for (;minValue<=maxValue;minValue++) {
-            arr.add(minValue);
+        for (int j=0;j<arr.length;j++,i=+2) {
+            //arr.add(minValue);
+            arr[j]=i;
+            summ = summ+i;
         }
 
         //Фільтрація та знаходження сумми
-        int summ = arr.stream().filter((s)->s % 2 == 0).reduce((s1, s2) -> s1 + s2).orElse(0);
+        //int summ = arr.stream().filter((s)->s % 2 == 0).reduce((s1, s2) -> s1 + s2).orElse(0);
         System.out.println(summ);
-
     }
 
     private static void task1() {
@@ -71,7 +75,7 @@ public class Main {
 
 //         Помилки:
 //         156.25 не мае точного двійкового представлення
-//         b - константа подвійної точності, а змінна а - одиничної(гарантія поведінки цього порівняння відсутня)
+//         b - змінна подвійної точності, а змінна а - одиничної(гарантія поведінки цього порівняння відсутня)
 //         Рішення:
 //         Порівнювати числа з плавуючею комою перетворенням до цілочислених типів
 
