@@ -1,7 +1,9 @@
 import java.util.Date;
 
 public class Main {
+
     /*
+
     Красин ПР-2-2 ООП Лаб3
 
     Предметна область: готель, клас: готельний номер, орієнтовний перелік
@@ -14,9 +16,9 @@ public class Main {
     public static void main(String[] args) {
 
         HotelRoom[] roomsList = fillHotel();
-
         Hotel hotel = new Hotel(roomsList);
-        //hotel.printList();
+
+        hotel.printList();
         //hotel.printList(false);
         //hotel.findByMaxCostAndPlacesToStay(50,50);
     }
@@ -27,29 +29,30 @@ public class Main {
 
         //пустая комната
         roomsList[0]=(new HotelRoom(
-                "Common description for common room",
+                "Common description for common room 1",
                 1,
                 10));
 
         //пустая комната
         roomsList[1]=(new HotelRoom(
-                "Common description for common room",
+                "Common description for common room 2",
                 2,
                 20));
 
         //заселились сегодня на 10 дней
         roomsList[2]=(new HotelRoom(
-                "Common description for common room",
+                "Common description for common room 3",
                 3,
                 30,30));
 
         //Забронирована на потом но сейчас свободна
         Date dateOfArrival = new Date(Long.MAX_VALUE);
         roomsList[3]=(new HotelRoom(
-                "Common description for common room",
+                "Common description for common room 4",
                 4,
                 40,true,dateOfArrival,10));
 
         return roomsList;
     }
+
 }
