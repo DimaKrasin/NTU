@@ -32,11 +32,11 @@ public class Drawing extends Application {
         primaryStage.setScene(new Scene(root,600,600));
         primaryStage.show();
 
-        moveHorseMove(root,body,legLeft,legRight);
+  //      moveHorseMove(root,body,legLeft,legRight);
 
 
     }
-
+/*
     private static void moveHorseMove(Pane root,Rectangle body,Rectangle legLeft,Rectangle legRight){
 
         Thread thread = new Thread(Runnable() {
@@ -70,5 +70,5 @@ public class Drawing extends Application {
         };
         );
     }
-
+*/
 }

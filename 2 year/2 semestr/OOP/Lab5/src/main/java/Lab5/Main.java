@@ -27,7 +27,7 @@ public class Main {
 
 
         //task2
-        prioritizeWords(str);
+       prioritizeWords(str);
     }
 
     private static String scanLine() {

@@ -2,12 +2,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class HotelRoom {
+
     private String description;
     private int countPlacesToStay;
     private int costDay;
     private boolean free;
     private Date dateOfArrival;
     private int lenthOfStay;
+
+
 
     //есть все поля класса
     public HotelRoom(

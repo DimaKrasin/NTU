@@ -42,10 +42,24 @@ import Lab4.task3and4.PlaneTransport;
 
 public class Main {
     public static void main(String[] args) {
+
         PlaneTransport planeTransport = new PlaneTransport("Boing 707",1000);
         planeTransport.printInfo();
 
         PlanePassenger planePassenger = new PlanePassenger("Ruslam",500);
         planePassenger.printInfo();
+
+        PlaneTransport planeTransport1 = new PlaneTransport("Tesla",200);
+        PlanePassenger planePassenger1 = new PlanePassenger("Turbo",4534);
+
+        System.out.println("Хеш 1 = "+planeTransport.hashCode()+" Хеш 2"+planeTransport1.hashCode());
+        System.out.println(planeTransport.equals(planeTransport1));
+
+        System.out.println("Хеш 1 = "+planePassenger.hashCode()+" Хеш 2"+planePassenger1.hashCode());
+        System.out.println(planePassenger.equals(planePassenger1));
+
+        System.out.println(planeTransport.toString());
+        System.out.println(planePassenger.toString());
     }
+
 }

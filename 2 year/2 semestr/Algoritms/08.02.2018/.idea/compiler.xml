@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="08.02.2018" target="1.8" />
+      <module name="08.02.2018" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

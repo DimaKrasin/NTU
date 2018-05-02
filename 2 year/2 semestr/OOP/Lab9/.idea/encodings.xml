@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/ConnectionFactory.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/DateUtil.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAO.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAO.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAOImpl.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAO.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAOImpl.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/Book.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/BookRegister.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/PersonReader.java" charset="windows-1251" />
+  </component>
+</project>

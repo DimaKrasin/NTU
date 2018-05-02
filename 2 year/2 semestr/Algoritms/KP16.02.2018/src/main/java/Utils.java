@@ -6,7 +6,7 @@ public class Utils {
 
     private static Scanner scanner = new Scanner(System.in);
 
-    public static List<Double> inputIntegerArray (){
+    public static List<Double> inputDoubleArray (){
 
         //Создаем и считываем массив
         List<Double> arr = new ArrayList<Double>();
