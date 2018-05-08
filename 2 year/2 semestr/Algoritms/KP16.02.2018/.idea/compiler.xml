@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="KP16.02.2018" target="1.5" />
+      <module name="KP16.02.2018" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

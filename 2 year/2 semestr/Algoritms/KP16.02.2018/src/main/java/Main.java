@@ -7,11 +7,11 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //task1();
-        //task2();
-        //task3();
+        task1();
+        task2();
+        task3();
         //toxaTask1();
-        lesha();
+        //lesha();
 
     }
 

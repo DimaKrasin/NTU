@@ -12,36 +12,34 @@ import java.sql.SQLException;
  */
 public class ConnectionFactory {
 
-	public static final String DB_URL = "jdbc:mysql://localhost:3306/dbntu?useSSL=false";
-	public static final String DB_USER = "user"; //??? ??????????
-	public static final String DB_PASSWORD = "11111";   
+    public static final String DB_URL = "jdbc:mysql://localhost:3306/dbntu?useSSL=false";
+    public static final String DB_USER = "root"; //??? ??????????
+    public static final String DB_PASSWORD = "root";
 
-	    /**
+    /**
+     * Get a connection to database
+     *
+     * @return Connection object
+     */
 
-	     * Get a connection to database
+    public static Connection getConnection()
 
-	     * @return Connection object
+    {
 
-	     */
+        try {
 
-	    public static Connection getConnection()
+            DriverManager.registerDriver(new Driver());
+            Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+            return connection;
 
-	    {
 
-	      try {
+        } catch (SQLException ex) {
 
-	          DriverManager.registerDriver(new Driver());	    	
-         	  Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD); 
-	          return connection;
-	         
+            throw new RuntimeException("Error connecting to the database", ex);
 
-	      } catch (SQLException ex) {
+        }
 
-	          throw new RuntimeException("Error connecting to the database", ex);
 
-	      }
-	      
-
-	    }	
+    }
 
 }

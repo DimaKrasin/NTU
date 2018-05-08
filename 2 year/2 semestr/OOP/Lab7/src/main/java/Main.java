@@ -25,17 +25,13 @@ Task 3:
 класу з обробкою власного винятку (блок try-catch).
 */
 
-import Task3.DemoMyExceptionWithLab1New;
-
 public class Main {
 
     public static void main(String[] args) {
 
         //Task1.task1Implementation();
-        //Task2.task1Implementation();
-        DemoMyExceptionWithLab1New.task3Implimentation();
+        Task2.task1Implementation();
+        //DemoMyExceptionWithLab1New.task3Implimentation();
 
     }
-
-
 }
