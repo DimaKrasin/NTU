@@ -236,7 +236,7 @@ public class Main2WithJavaFX extends Application {
                         System.out.println(subscriberToUpdate.getNumber());
                         subscriberDAO.updateSubscriber(subscriberToUpdate, oldSubNumber);
 
-                        //list.addAll(subscriberToUpdate);
+                        list.addAll(subscriberToUpdate);
 
                     } else {
                         System.out.println("в номере должны быть только цыфры");
@@ -304,6 +304,7 @@ public class Main2WithJavaFX extends Application {
         table = new TableView<>();
         table.setTranslateX(10);
         table.setTranslateY(250);
+        list.clear();
         table.setItems(readAllForDB());
 
         if (isItASubscriberTable) {
