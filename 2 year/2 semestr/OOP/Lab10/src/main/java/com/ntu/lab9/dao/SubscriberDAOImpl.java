@@ -17,7 +17,7 @@ public class SubscriberDAOImpl implements SubscriberDAO {
         //try-with-resources
         try (Connection connection = com.ntu.lab9Example.ConnectionFactory.getConnection();
              Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM subscriber WHERE id=" + id);
+             ResultSet rs = stmt.executeQuery("SELECT * FROM subscriber WHERE id=" + id)
         ) {
 
             if (rs.next()) {
@@ -49,7 +49,7 @@ public class SubscriberDAOImpl implements SubscriberDAO {
         //try-with-resources
         try (Connection connection = ConnectionFactory.getConnection();
              Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM subscriber");
+             ResultSet rs = stmt.executeQuery("SELECT * FROM subscriber")
         ) {
 
             List<Subscriber> subscribers = new ArrayList<>(); //змінна для формування списку
@@ -73,7 +73,7 @@ public class SubscriberDAOImpl implements SubscriberDAO {
     public boolean insertSubscriber(Subscriber subscriber) {
         //try-with-resources
         try (Connection connection = ConnectionFactory.getConnection();
-             PreparedStatement ps = connection.prepareStatement("INSERT INTO subscriber(id,available) VALUES (?, ?)");
+             PreparedStatement ps = connection.prepareStatement("INSERT INTO subscriber(id,available) VALUES (?, ?)")
         ) {
 
             ps.setString(1, subscriber.getNumber());
@@ -100,7 +100,7 @@ public class SubscriberDAOImpl implements SubscriberDAO {
     public boolean updateSubscriber(Subscriber subscriber) {
         //try-with-resources
         try (Connection connection = ConnectionFactory.getConnection();
-             PreparedStatement ps = connection.prepareStatement("UPDATE subscriber set ID = ?, available= ? WHERE id=?");
+             PreparedStatement ps = connection.prepareStatement("UPDATE subscriber set ID = ?, available= ? WHERE ID=?")
         ) {
             ps.setString(1, subscriber.getNumber());
             ps.setBoolean(2, subscriber.isAvailable());
@@ -123,11 +123,37 @@ public class SubscriberDAOImpl implements SubscriberDAO {
         return false;
     }
 
+    public boolean updateSubscriber(Subscriber subscriber,String id) {
+        //try-with-resources
+        try (Connection connection = ConnectionFactory.getConnection();
+             PreparedStatement ps = connection.prepareStatement("UPDATE subscriber set ID = ?, available= ? WHERE ID=?")
+        ) {
+            ps.setString(1, subscriber.getNumber());
+            ps.setBoolean(2, subscriber.isAvailable());
+            ps.setString(3, id);
+
+            int i = ps.executeUpdate(); // for INSERT, UPDATE & DELETE
+
+            if (i == 1) {
+
+                return true;
+
+            }
+
+        } catch (SQLException ex) {
+
+            ex.printStackTrace();
+
+        }
+
+        return false;
+    }
+
     @Override
     public boolean deleteSubscriber(String id) {
         //try-with-resources
         try (Connection connection = ConnectionFactory.getConnection();
-             PreparedStatement ps = connection.prepareStatement("DELETE FROM subscriber WHERE id=?");
+             PreparedStatement ps = connection.prepareStatement("DELETE FROM subscriber WHERE id=?")
         )
         {
 

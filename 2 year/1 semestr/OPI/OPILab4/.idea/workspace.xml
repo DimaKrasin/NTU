@@ -15,34 +15,46 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="63" column="81" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="81" />
               <folding>
-                <marker date="1518005256665" expanded="true" signature="6673:6693" ph="SELECT * FRO... report" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="method#css#0;class#Main#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportEntity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReportEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="17">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CRUD.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CRUD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="263">
+              <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
               <folding>
-                <marker date="1512682358985" expanded="true" signature="21041:21073" ph="SELECT * FRO... report" />
-                <marker date="1512682358985" expanded="true" signature="21175:21235" ph="SELECT * FRO... report" />
-                <marker date="1512682358985" expanded="true" signature="21208:21234" ph="SELECT max(i... report" />
+                <element signature="method#updateReport#0;class#CRUD#0" />
+                <element signature="method#filterReports#0;class#CRUD#0" />
+                <element signature="method#filterByProjectType#0;class#CRUD#0" />
+                <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+                <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+                <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+                <element signature="method#createSmallStage#0;class#CRUD#0" />
+                <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+                <element signature="method#doSql#0;class#CRUD#0" />
+                <element signature="method#isReportCorect#0;class#CRUD#0" />
+                <element signature="method#datePickerToDate#0;class#CRUD#0" />
+                <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+                <element signature="method#chancheList#0;class#CRUD#0" />
+                <element signature="method#getEntity#0;class#CRUD#0" />
                 <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
               </folding>
             </state>
@@ -52,19 +64,13 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="2431">
+              <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -73,26 +79,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="541" />
-    <option name="y" value="64" />
-    <option name="width" value="1265" />
-    <option name="height" value="1043" />
+    <option name="x" value="540" />
+    <option name="y" value="63" />
+    <option name="width" value="1266" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,15 +121,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2 semestr/OOP/Lab10" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RunDashboard">
@@ -228,43 +223,47 @@
       <workItem from="1521639041707" duration="325000" />
       <workItem from="1521717036552" duration="49000" />
       <workItem from="1521717103304" duration="20000" />
+      <workItem from="1525816098562" duration="2245000" />
+      <workItem from="1525884831895" duration="6203000" />
+      <workItem from="1525896257452" duration="1478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394000" />
+    <option name="totallyTimeSpent" value="10320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26108107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14285715" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27530363" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,17 +272,165 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="952">
+          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
-            <marker date="1518005256665" expanded="true" signature="6673:6693" ph="SELECT * FRO... report" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="272" column="37" selection-start-line="272" selection-start-column="37" selection-end-line="272" selection-end-column="37" />
+          <folding>
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
+            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="152" column="5" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
+          <folding>
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
+            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
+            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -293,9 +440,20 @@
         <state relative-caret-position="200">
           <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
-            <marker date="1512682358985" expanded="true" signature="21041:21073" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21175:21235" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21208:21234" ph="SELECT max(i... report" />
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -304,9 +462,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
-            <marker date="1518005256665" expanded="true" signature="6673:6693" ph="SELECT * FRO... report" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
       </provider>
@@ -314,24 +474,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <marker date="1512682358985" expanded="true" signature="21041:21073" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21175:21235" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21208:21234" ph="SELECT max(i... report" />
-            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <marker date="1512682358985" expanded="true" signature="21041:21073" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21175:21235" ph="SELECT * FRO... report" />
-            <marker date="1512682358985" expanded="true" signature="21208:21234" ph="SELECT max(i... report" />
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -339,27 +497,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="2431">
+          <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="63" column="81" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="81" />
           <folding>
-            <marker date="1518005256665" expanded="true" signature="6673:6693" ph="SELECT * FRO... report" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+          <folding>
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterReports#0;class#CRUD#0" />
+            <element signature="method#filterByProjectType#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#createSmallStage#0;class#CRUD#0" />
+            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
+            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
+          </folding>
         </state>
       </provider>
     </entry>
