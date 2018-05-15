@@ -112,7 +112,8 @@ public class Main2 {
 
                     List<Subscriber> subs = subscriberDAO.getAllSubscriber();
                     for (Subscriber item : subs) {
-                        System.out.println(item);
+                        System.out.println(item.getNumber());
+
                     }
 
                     break;
