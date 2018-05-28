@@ -15,7 +15,7 @@ public class SubscriberDAOImpl implements SubscriberDAO {
         // Connection connection = ConnectionFactory.getConnection();
 
         //try-with-resources
-        try (Connection connection = com.ntu.lab9Example.ConnectionFactory.getConnection();
+        try (Connection connection = ConnectionFactory.getConnection();
              Statement stmt = connection.createStatement();
              ResultSet rs = stmt.executeQuery("SELECT * FROM subscriber WHERE id=" + id)
         ) {
@@ -178,7 +178,10 @@ public class SubscriberDAOImpl implements SubscriberDAO {
 
     private Subscriber extractSubscriberFromResultSet(ResultSet rs) throws SQLException {
 
-        return new Subscriber(rs.getString("id"), rs.getBoolean("available"));
+        return new Subscriber(
+                rs.getString("id"),
+                rs.getBoolean("available")
+        );
 
     }
 

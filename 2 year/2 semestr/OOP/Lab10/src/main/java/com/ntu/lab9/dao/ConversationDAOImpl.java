@@ -15,32 +15,16 @@ public class ConversationDAOImpl implements ConversationDAO {
         // Connection connection = ConnectionFactory.getConnection();
 
         //try-with-resources
-        try (Connection connection = com.ntu.lab9Example.ConnectionFactory.getConnection();
+        try (Connection connection = ConnectionFactory.getConnection();
              Statement stmt = connection.createStatement();
              ResultSet rs = stmt.executeQuery("SELECT * FROM conversation WHERE id=" + id);
         ) {
-
             if (rs.next()) {
-                ///для зручності перенесли даний код у приватний метод extractBookFromResultSet
-
-
                 return extractСonversationFromResultSet(rs);
-
-
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
-
         }
-     /*   finally {
-        	if (connection != null) {
-        		try {
-					connection.close();
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-        	}
-        }*/
 
         return null;
     }
@@ -64,7 +48,6 @@ public class ConversationDAOImpl implements ConversationDAO {
 
         } catch (SQLException ex) {
             ex.printStackTrace();
-
         }
 
         return null;
@@ -108,15 +91,10 @@ public class ConversationDAOImpl implements ConversationDAO {
             int i = ps.executeUpdate(); // for INSERT, UPDATE & DELETE
 
             if (i == 1) {
-
                 return true;
-
             }
-
         } catch (SQLException ex) {
-
             ex.printStackTrace();
-
         }
 
         return false;
@@ -209,7 +187,7 @@ public class ConversationDAOImpl implements ConversationDAO {
 
     private Conversation extractСonversationFromResultSet(ResultSet rs) throws SQLException {
 
-        return new Conversation(rs.getString("subWhoCallId"), rs.getString("calledSubId"));
+        return new Conversation(rs.getLong("ID"),rs.getString("subWhoCallId"), rs.getString("calledSubId"));
 
     }
 

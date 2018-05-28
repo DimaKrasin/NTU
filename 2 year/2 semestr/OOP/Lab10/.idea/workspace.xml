@@ -27,17 +27,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="dbntu@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dbntu@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dbntu@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dbntu: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -46,37 +35,17 @@
       <file leaf-file-name="Main2WithJavaFX.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="134" column="13" lean-forward="true" selection-start-line="111" selection-start-column="12" selection-end-line="134" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4572#6558#0" />
-                <element signature="e#6592#7381#0" />
-                <element signature="e#7413#9787#0" />
-                <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-                <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-                <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-                <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-                <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="242" column="12" selection-start-line="242" selection-start-column="12" selection-end-line="273" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AllEntitysParent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/AllEntitysParent.java">
+      <file leaf-file-name="UtilsUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/UtilsUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Conversation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="391">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -102,16 +71,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Сonversation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/UtilsUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/AllEntitysInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Conversation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/UtilsUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Subscriber.java" />
       </list>
     </option>
   </component>
@@ -133,9 +102,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
-    <option name="y" value="252" />
-    <option name="width" value="1566" />
+    <option name="x" value="369" />
+    <option name="y" value="30" />
+    <option name="width" value="1266" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectView">
@@ -143,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -205,24 +176,33 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ntu" type="462c0819:PsiDirectoryNode" />
               <item name="lab9" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab10" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ntu" type="462c0819:PsiDirectoryNode" />
+              <item name="lab9" type="462c0819:PsiDirectoryNode" />
               <item name="entitys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="E:/OOP Labs/Lab9-20180502T205638Z-001.zip_expanded" />
+    <property name="last_opened_file_path" value="E:/Java/Lab9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -349,74 +329,94 @@
       <workItem from="1525944440093" duration="304000" />
       <workItem from="1525953280357" duration="2616000" />
       <workItem from="1526399638145" duration="3981000" />
+      <workItem from="1526483291286" duration="1951000" />
+      <workItem from="1526486215411" duration="6022000" />
+      <workItem from="1526512116723" duration="3876000" />
+      <workItem from="1526550073732" duration="878000" />
+      <workItem from="1526558214110" duration="4059000" />
+      <workItem from="1526576264966" duration="16000" />
+      <workItem from="1526577223087" duration="74000" />
+      <workItem from="1526577303911" duration="2695000" />
+      <workItem from="1526585774597" duration="455000" />
+      <workItem from="1526587125235" duration="92000" />
+      <workItem from="1526821837025" duration="37000" />
+      <workItem from="1526822241100" duration="5242000" />
+      <workItem from="1526831442016" duration="543000" />
+      <workItem from="1526971434080" duration="414000" />
+      <workItem from="1526974029883" duration="12000" />
+      <workItem from="1527018429066" duration="1444000" />
+      <workItem from="1527024485274" duration="202000" />
+      <workItem from="1527088447023" duration="631000" />
+      <workItem from="1527444206190" duration="26000" />
+      <workItem from="1527444256756" duration="639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54630000" />
+    <option name="totallyTimeSpent" value="83938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="168" width="1044" height="696" extended-state="0" />
+    <frame x="246" y="20" width="844" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32920355" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32955465" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32955465" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21592921" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05995935" />
-      <window_info anchor="right" id="Database" order="3" weight="0.2291498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33035713" />
+      <window_info anchor="right" id="Database" order="6" weight="0.24048583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.2141593" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32920355" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33097345" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" weight="0.2291498" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32920355" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32955465" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,68 +427,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4046">
           <caret line="238" column="24" lean-forward="true" selection-start-line="238" selection-start-column="24" selection-end-line="238" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4063">
           <caret line="258" selection-start-line="258" selection-end-line="258" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,17 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="122" column="90" lean-forward="true" selection-start-line="122" selection-start-column="90" selection-end-line="122" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,13 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/UtilsUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -570,17 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
           <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,241 +538,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/DateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/PersonReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/BookRegister.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/ConnectionFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/Book.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/Scene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="109">
+          <caret line="1761" selection-start-line="1761" selection-end-line="1761" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3587">
-          <caret line="211" column="26" lean-forward="true" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java" />
+    <entry file="uml://MODULES/mdl-Lab9">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-Lab9</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-Lab9</node>
+            <node x="" y="">lib-Maven: mysql:mysql-connector-java:5.1.32</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="151.0" y="55.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Libraries</Category>
+            <Category>Test dependencies</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="21" lean-forward="true" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Subscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="131" column="25" lean-forward="true" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/PersonReaderDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/AllEntitysParent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/PersonReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/BookRegister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookRegisterDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="188" column="10" lean-forward="true" selection-start-line="188" selection-start-column="10" selection-end-line="210" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/domain/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9Example/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="179" column="20" lean-forward="true" selection-start-line="179" selection-start-column="20" selection-end-line="182" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="1761" selection-start-line="1761" selection-end-line="1761" />
-          <folding>
-            <element signature="e#66663#66664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        <state relative-caret-position="480">
+          <caret line="181" column="9" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/ConversationDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/dao/SubscriberDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        <state relative-caret-position="480">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+    <entry file="uml://JAVA/com.ntu.lab9">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ntu.lab9</OriginalElement>
+          <nodes>
+            <node x="447.5625" y="340.0">com.ntu.lab9.Main2WithJavaFX</node>
+            <node x="354.29734848484856" y="0.0">com.ntu.lab9.entitys</node>
+            <node x="86.32116620752987" y="220.0">com.ntu.lab9.dao.ConversationDAOImpl</node>
+            <node x="568.8211662075298" y="220.0">com.ntu.lab9.UtilsUI</node>
+            <node x="293.32116620752987" y="220.0">com.ntu.lab9.dao.SubscriberDAOImpl</node>
+            <node x="0.0" y="130.0">com.ntu.lab9.dao.ConversationDAO</node>
+            <node x="198.18750000000003" y="130.0">com.ntu.lab9.ConnectionFactory</node>
+            <node x="385.82116620752987" y="130.0">com.ntu.lab9.dao.SubscriberDAO</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.dao.SubscriberDAO">
+              <point x="-15.555555555555543" y="-15.0" />
+              <point x="502.00694444444446" y="290.0" />
+              <point x="482.57116620752987" y="290.0" />
+              <point x="32.25" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.ConversationDAOImpl" target="com.ntu.lab9.ConnectionFactory">
+              <point x="62.625" y="-15.0" />
+              <point x="232.44616620752987" y="200.0" />
+              <point x="271.1875" y="200.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.ConversationDAO" target="com.ntu.lab9.entitys">
+              <point x="0.0" y="-15.0" />
+              <point x="71.5" y="70.0" />
+              <point x="369.70643939393943" y="70.0" />
+              <point x="-41.09090909090912" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.entitys" target="com.ntu.lab9.entitys">
+              <point x="-51.36363636363637" y="15.0" />
+              <point x="359.4337121212122" y="50.0" />
+              <point x="334.29734848484856" y="50.0" />
+              <point x="334.29734848484856" y="15.0" />
+              <point x="-56.5" y="-0.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.SubscriberDAOImpl" target="com.ntu.lab9.ConnectionFactory">
+              <point x="-57.375" y="-15.0" />
+              <point x="312.44616620752987" y="200.0" />
+              <point x="319.85416666666663" y="200.0" />
+              <point x="48.66666666666663" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.SubscriberDAOImpl" target="com.ntu.lab9.dao.SubscriberDAO">
+              <point x="57.375" y="-15.0" />
+              <point x="427.19616620752987" y="200.0" />
+              <point x="418.07116620752987" y="200.0" />
+              <point x="-32.25" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.dao.SubscriberDAOImpl">
+              <point x="-31.111111111111086" y="-15.0" />
+              <point x="486.4513888888889" y="300.0" />
+              <point x="408.07116620752987" y="300.0" />
+              <point x="38.25" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.UtilsUI">
+              <point x="62.22222222222217" y="-15.0" />
+              <point x="579.7847222222222" y="320.0" />
+              <point x="609.8211662075298" y="320.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.ConversationDAOImpl" target="com.ntu.lab9.dao.ConversationDAO">
+              <point x="-62.625" y="-15.0" />
+              <point x="35.75" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.dao.ConversationDAO">
+              <point x="-62.22222222222223" y="-15.0" />
+              <point x="455.3402777777778" y="320.0" />
+              <point x="35.75" y="320.0" />
+              <point x="-35.75" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.ConversationDAOImpl" target="com.ntu.lab9.entitys">
+              <point x="20.875" y="-15.0" />
+              <point x="190.69616620752987" y="200.0" />
+              <point x="167.56250000000003" y="200.0" />
+              <point x="167.56250000000003" y="90.0" />
+              <point x="390.251893939394" y="90.0" />
+              <point x="-20.54545454545456" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.ConversationDAOImpl" target="com.ntu.lab9.dao.ConversationDAOImpl">
+              <point x="-41.75" y="15.0" />
+              <point x="128.07116620752987" y="270.0" />
+              <point x="66.32116620752987" y="270.0" />
+              <point x="66.32116620752987" y="235.0" />
+              <point x="-83.5" y="-0.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.SubscriberDAOImpl" target="com.ntu.lab9.entitys">
+              <point x="19.125" y="-15.0" />
+              <point x="388.94616620752987" y="200.0" />
+              <point x="375.32116620752987" y="200.0" />
+              <point x="375.32116620752987" y="110.0" />
+              <point x="410.79734848484856" y="110.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.dao.ConversationDAOImpl">
+              <point x="-46.666666666666686" y="-15.0" />
+              <point x="470.89583333333337" y="310.0" />
+              <point x="211.57116620752987" y="310.0" />
+              <point x="41.75" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.entitys">
+              <point x="0.0" y="-15.0" />
+              <point x="517.5625" y="320.0" />
+              <point x="525.3211662075298" y="320.0" />
+              <point x="525.3211662075298" y="100.0" />
+              <point x="431.3428030303031" y="100.0" />
+              <point x="20.54545454545456" y="15.0" />
+            </edge>
+            <edge source="com.ntu.lab9.Main2WithJavaFX" target="com.ntu.lab9.Main2WithJavaFX">
+              <point x="0.0" y="15.0" />
+              <point x="517.5625" y="390.0" />
+              <point x="427.5625" y="390.0" />
+              <point x="427.5625" y="355.0" />
+              <point x="-70.0" y="-0.0" />
+            </edge>
+            <edge source="com.ntu.lab9.ConnectionFactory" target="com.ntu.lab9.ConnectionFactory">
+              <point x="-48.66666666666666" y="15.0" />
+              <point x="222.52083333333337" y="180.0" />
+              <point x="178.18750000000003" y="180.0" />
+              <point x="178.18750000000003" y="145.0" />
+              <point x="-73.0" y="-0.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.SubscriberDAOImpl" target="com.ntu.lab9.dao.SubscriberDAOImpl">
+              <point x="-38.25" y="15.0" />
+              <point x="331.57116620752987" y="270.0" />
+              <point x="273.32116620752987" y="270.0" />
+              <point x="273.32116620752987" y="235.0" />
+              <point x="-76.5" y="-0.0" />
+            </edge>
+            <edge source="com.ntu.lab9.dao.SubscriberDAO" target="com.ntu.lab9.entitys">
+              <point x="-5.6843418860808015E-14" y="-15.0" />
+              <point x="450.3211662075298" y="110.0" />
+              <point x="421.0700757575758" y="110.0" />
+              <point x="10.272727272727252" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="170.0" />
+          <SelectedNodes>
+            <node>com.ntu.lab9.entitys</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/UtilsUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="106" column="16" selection-start-line="106" selection-start-column="16" selection-end-line="106" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/AllEntitysParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/entitys/Conversation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="391">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ntu/lab9/Main2WithJavaFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="134" column="13" lean-forward="true" selection-start-line="111" selection-start-column="12" selection-end-line="134" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4572#6558#0" />
-            <element signature="e#6592#7381#0" />
-            <element signature="e#7413#9787#0" />
-            <element signature="method#menuWithTableAddInfoPickers#0;class#Main2WithJavaFX#0" />
-            <element signature="method#menuWithTableAddTables#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createTableColumn#0;class#Main2WithJavaFX#0" />
-            <element signature="method#readAllForDB#0;class#Main2WithJavaFX#0" />
-            <element signature="method#createSmallStage#0;class#Main2WithJavaFX#0" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="242" column="12" selection-start-line="242" selection-start-column="12" selection-end-line="273" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -907,7 +871,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

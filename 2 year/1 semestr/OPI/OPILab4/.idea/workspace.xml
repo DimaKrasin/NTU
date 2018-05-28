@@ -15,11 +15,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="63" column="81" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="81" />
+            <state relative-caret-position="-65">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#691#692#0" expanded="true" />
                 <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#1185#1550#0" />
+                <element signature="e#1642#1743#0" />
+                <element signature="e#1834#2191#0" />
+                <element signature="e#2282#2388#0" />
+                <element signature="method#createTableView#0;class#Main#0" />
+                <element signature="method#readDB#0;class#Main#0" />
                 <element signature="method#css#0;class#Main#0" />
               </folding>
             </state>
@@ -38,23 +44,21 @@
       <file leaf-file-name="CRUD.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="366" column="36" lean-forward="true" selection-start-line="361" selection-start-column="16" selection-end-line="366" selection-end-column="36" />
               <folding>
+                <element signature="method#createReport#0;class#CRUD#0" />
                 <element signature="method#updateReport#0;class#CRUD#0" />
-                <element signature="method#filterReports#0;class#CRUD#0" />
-                <element signature="method#filterByProjectType#0;class#CRUD#0" />
                 <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
                 <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
                 <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-                <element signature="method#createSmallStage#0;class#CRUD#0" />
-                <element signature="method#addStaffOnStage#0;class#CRUD#0" />
                 <element signature="method#doSql#0;class#CRUD#0" />
                 <element signature="method#isReportCorect#0;class#CRUD#0" />
                 <element signature="method#datePickerToDate#0;class#CRUD#0" />
                 <element signature="method#dateToLocalDate#0;class#CRUD#0" />
                 <element signature="method#chancheList#0;class#CRUD#0" />
                 <element signature="method#getEntity#0;class#CRUD#0" />
+                <element signature="method#deleteReport#0;class#CRUD#0" />
                 <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
               </folding>
             </state>
@@ -64,8 +68,14 @@
       <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
+            <state relative-caret-position="1326">
+              <caret line="121" column="65" selection-start-line="121" selection-start-column="65" selection-end-line="121" selection-end-column="65" />
+              <folding>
+                <element signature="method#getStatement#0;class#Utils#0" />
+                <element signature="method#closeConnection#0;class#Utils#0" />
+                <element signature="method#createCheckBox#0;class#Utils#0" />
+                <element signature="method#createDatePicker#0;class#Utils#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,7 +88,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="540" />
     <option name="y" value="63" />
     <option name="width" value="1266" />
@@ -89,8 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,13 +128,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2 semestr/OOP/Lab10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
   </component>
   <component name="RunDashboard">
@@ -226,14 +236,15 @@
       <workItem from="1525816098562" duration="2245000" />
       <workItem from="1525884831895" duration="6203000" />
       <workItem from="1525896257452" duration="1478000" />
+      <workItem from="1526489753131" duration="192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10320000" />
+    <option name="totallyTimeSpent" value="10512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -249,7 +260,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27530363" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17975709" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,11 +286,77 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="63" column="81" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="81" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
+            <element signature="method#css#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ReportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
+          <folding>
+            <element signature="method#getStatement#0;class#Utils#0" />
+            <element signature="method#closeConnection#0;class#Utils#0" />
+            <element signature="method#createCheckBox#0;class#Utils#0" />
+            <element signature="method#createDatePicker#0;class#Utils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+          <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
+            <element signature="method#updateReport#0;class#CRUD#0" />
+            <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
+            <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
+            <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
+            <element signature="method#doSql#0;class#CRUD#0" />
+            <element signature="method#isReportCorect#0;class#CRUD#0" />
+            <element signature="method#datePickerToDate#0;class#CRUD#0" />
+            <element signature="method#dateToLocalDate#0;class#CRUD#0" />
+            <element signature="method#chancheList#0;class#CRUD#0" />
+            <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
+            <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
             <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
@@ -304,20 +381,18 @@
         <state relative-caret-position="4624">
           <caret line="272" column="37" selection-start-line="272" selection-start-column="37" selection-end-line="272" selection-end-column="37" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -330,6 +405,12 @@
           <folding>
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
             <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
@@ -354,20 +435,18 @@
         <state relative-caret-position="3774">
           <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -380,6 +459,12 @@
           <folding>
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
             <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
@@ -390,20 +475,18 @@
         <state relative-caret-position="136">
           <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -430,6 +513,12 @@
           <folding>
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
             <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
@@ -440,20 +529,18 @@
         <state relative-caret-position="200">
           <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -466,6 +553,12 @@
           <folding>
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
             <element signature="method#css#0;class#Main#0" />
           </folding>
         </state>
@@ -476,20 +569,18 @@
         <state relative-caret-position="550">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>
@@ -497,19 +588,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2431">
-          <caret line="152" column="5" selection-start-line="48" selection-start-column="4" selection-end-line="152" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="63" column="81" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="81" />
+        <state relative-caret-position="1326">
+          <caret line="121" column="65" selection-start-line="121" selection-start-column="65" selection-end-line="121" selection-end-column="65" />
           <folding>
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="method#css#0;class#Main#0" />
+            <element signature="method#getStatement#0;class#Utils#0" />
+            <element signature="method#closeConnection#0;class#Utils#0" />
+            <element signature="method#createCheckBox#0;class#Utils#0" />
+            <element signature="method#createDatePicker#0;class#Utils#0" />
           </folding>
         </state>
       </provider>
@@ -521,25 +606,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#1185#1550#0" />
+            <element signature="e#1642#1743#0" />
+            <element signature="e#1834#2191#0" />
+            <element signature="e#2282#2388#0" />
+            <element signature="method#createTableView#0;class#Main#0" />
+            <element signature="method#readDB#0;class#Main#0" />
+            <element signature="method#css#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CRUD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="503" column="13" selection-start-line="503" selection-start-column="13" selection-end-line="503" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="366" column="36" lean-forward="true" selection-start-line="361" selection-start-column="16" selection-end-line="366" selection-end-column="36" />
           <folding>
+            <element signature="method#createReport#0;class#CRUD#0" />
             <element signature="method#updateReport#0;class#CRUD#0" />
-            <element signature="method#filterReports#0;class#CRUD#0" />
-            <element signature="method#filterByProjectType#0;class#CRUD#0" />
             <element signature="method#filterByProjectPriority#0;class#CRUD#0" />
             <element signature="method#filterByProjectStrictness#0;class#CRUD#0" />
             <element signature="method#filterByTestEnvironment#0;class#CRUD#0" />
-            <element signature="method#createSmallStage#0;class#CRUD#0" />
-            <element signature="method#addStaffOnStage#0;class#CRUD#0" />
             <element signature="method#doSql#0;class#CRUD#0" />
             <element signature="method#isReportCorect#0;class#CRUD#0" />
             <element signature="method#datePickerToDate#0;class#CRUD#0" />
             <element signature="method#dateToLocalDate#0;class#CRUD#0" />
             <element signature="method#chancheList#0;class#CRUD#0" />
             <element signature="method#getEntity#0;class#CRUD#0" />
+            <element signature="method#deleteReport#0;class#CRUD#0" />
             <marker date="1512682358985" expanded="true" signature="22449:22479" ph="DELETE FROM report... " />
           </folding>
         </state>

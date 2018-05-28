@@ -1,4 +1,4 @@
-package com.ntu.lab9;
+package com.ntu.Lab10Luda;
 
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
@@ -8,7 +8,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class UtilsUI {
-
     //Методы создания елементов интерфейса
 
     public static CheckBox createCheckBox(String name, double x, double y){
@@ -18,8 +17,7 @@ public class UtilsUI {
         return checkBox;
     }
 
-    public static Label createLabel(
-            AnchorPane root, String text, double x, double y, double width, double height ){
+    public static Label createLabel(AnchorPane root, String text, double x, double y, double width, double height ){
         Label label = new Label();
         label.setPrefSize(width,height);
         AnchorPane.setLeftAnchor(label,x);
@@ -117,5 +115,4 @@ public class UtilsUI {
 
         return datePicker;
     }
-
 }

@@ -15,23 +15,24 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.*;
+import javafx.scene.text.Font;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
 public class Main2WithJavaFX extends Application {
 
-    //Р”Р»СЏ РІС‹Р±РѕСЂР° СЃ РєР°РєРѕР№ С‚Р°Р»РёС†РѕР№ РѕС‚РєСЂС‹РІР°С‚СЊ РґРёР°Р»РѕРіРѕРІРѕРµ РѕРєРЅРѕ
+    //Для выбора с какой талицой открывать диалоговое окно
     private static boolean isItASubscriberTable;
-    //РЎР°РјР° С‚Р°Р±Р»РёС†Р°
+    //Сама таблица
     private static TableView<AllEntitysParent> table;
-    //Р›РёСЃС‚ СЃ РґР°РЅРЅС‹РјРё РёР· Р±Рґ РґР»СЏ С‚Р°Р±Р»РёС†С‹
+    //Лист с данными из бд для таблицы
     private static ObservableList<AllEntitysParent> list = FXCollections.observableArrayList();
 
     private Subscriber subscriberToUpdate;
-    private Conversation conversationToUpdate;
 
     //Data pickers
     private TextField textFieldSubName;
@@ -50,45 +51,48 @@ public class Main2WithJavaFX extends Application {
 
     private void createStartMenu(Stage stage) {
 
-        //////СЃС†РµРЅР°//////
+        //////сцена//////
         AnchorPane root = new AnchorPane();
         stage.setTitle("Lab 10");
         Scene scene = new Scene(root, 500, 250);
         stage.setScene(scene);
         stage.show();
 
-        //////РєРЅРѕРїРєР° 1//////
+        Label labelHello = UtilsUI.createLabel(root,"WELCOME!",30,30,550,100);
+        labelHello.setFont(new Font("Arial", 70));
+
+        //////кнопка 1//////
         Button btnSubscribersTable = UtilsUI.createButton("Subscribers Table", 30, 200);
         btnSubscribersTable.setOnAction(event -> {
             isItASubscriberTable = true;
             createDialogMenu(stage);
         });
 
-        //////РєРЅРѕРїРєР° 2//////
+        //////кнопка 2//////
         Button btnConversationTable = UtilsUI.createButton("Conversation Table", 330, 200);
         btnConversationTable.setOnAction(event -> {
             isItASubscriberTable = false;
             createDialogMenu(stage);
         });
 
-        //////РґРѕР±Р°РІР»РµРЅРёРµ РІ root//////
+        //////добавление в root//////
         root.getChildren().addAll(btnSubscribersTable, btnConversationTable);
     }
 
     private void createDialogMenu(Stage generalStage) {
-        //РЎРѕР·РґР°РµРј РјР°Р»РµРЅСЊРєРѕРµ РѕРєРѕС€РєРѕ
+        //Создаем маленькое окошко
         AnchorPane root = createSmallStage(generalStage, "TableMenu");
 
-        //Р”РѕР±Р°Р»СЏРµРј РєРЅРѕРїРєРё
+        //Добаляем кнопки
         menuWithTableAddButtons(root);
-        //Р”РѕР±Р°РІР»СЏРµРј РїРѕР»СЏ РґР»СЏ РІРІРѕРґР° РёРЅС„РѕСЂРјР°С†РёРё
+        //Добавляем поля для ввода информации
         menuWithTableAddInfoPickers(root);
 
-        //Р”РѕР±Р°Р»СЏРµРј СЃР°РјСѓ С‚Р°Р±Р»РёС†Сѓ СЃРѕ Р·РЅР°С‡РµРЅРёСЏРјРё
+        //Добаляем саму таблицу со значениями
         menuWithTableAddTables(root);
     }
 
-    //////РЁС‚СѓРєРё РґР»СЏ РґРёР°Р»РѕРіРѕРІРѕРіРѕ РѕРєРЅР° СЃ С‚Р°Р±Р»РёС†РµР№//////
+    //////Штуки для диалогового окна с таблицей//////
     private void menuWithTableAddButtons(AnchorPane root) {
 
         Button btnUpdate = UtilsUI.createButton("Update", 240, 10);
@@ -116,16 +120,18 @@ public class Main2WithJavaFX extends Application {
                         subscriberToUpdate = (Subscriber) list.get(selectedIndex);
                         textFieldSubName.setText(subscriberToUpdate.getNumber());
 
-                        if(subscriberToUpdate.isAvailable()) {
+                        if (subscriberToUpdate.isAvailable()) {
                             textFieldSubAvailable.setText("1");
-                        }else {textFieldSubAvailable.setText("0");}
+                        } else {
+                            textFieldSubAvailable.setText("0");
+                        }
 
                     } else {
 
-                        conversationToUpdate = (Conversation) list.get(selectedIndex);
-
-                        textFieldConversationSubWhoCall.setText(conversationToUpdate.getSubWhoCallId());
-                        textFielConversatinCalledSub.setText(conversationToUpdate.getCalledSubId());
+//                        conversationToUpdate = (Conversation) list.get(selectedIndex);
+//
+//                        textFieldConversationSubWhoCall.setText(conversationToUpdate.getSubWhoCallId());
+//                        textFielConversatinCalledSub.setText(conversationToUpdate.getCalledSubId());
 
                     }
 
@@ -159,10 +165,10 @@ public class Main2WithJavaFX extends Application {
                         list.add(subscriber);
 
                     } else {
-                        System.out.println("РІ РЅРѕРјРµСЂРµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ С‚РѕР»СЊРєРѕ С†С‹С„СЂС‹");
+                        System.out.println("в номере должны быть только цыфры");
                     }
                 } else {
-                    System.out.println("РЅРµРІРµСЂРЅР°СЏ РґР»РёРЅР° РЅРѕРјРµСЂР°!");
+                    System.out.println("неверная длина номера!");
                 }
 
 
@@ -180,14 +186,33 @@ public class Main2WithJavaFX extends Application {
                         conversation.setSubWhoCallId(numberSubWhoCall);
                         conversation.setCalledSubId(numberCalledSub);
 
-                        conversationDAO.insertConversation(conversation);
-                        list.add(conversation);
+                        //Проверяем существуют ли такие пользователи
+                        List<Subscriber> listWirhAllSubscribers = subscriberDAO.getAllSubscriber();
+                        List<String> numbers = new ArrayList<>();
+                        for (Subscriber s:listWirhAllSubscribers) {
+                            numbers.add(s.getNumber());
+                        }
+
+                        if(numbers.contains(numberSubWhoCall)&numbers.contains(numberCalledSub)) {
+
+                            conversationDAO.insertConversation(conversation);
+                            list.add(conversation);
+
+                        }else {
+                            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                            alert.setTitle("Ahtung");
+                            alert.setHeaderText(null);
+                            alert.setContentText("Some testfields are not correct" +
+                                    "\nTheu are real important");
+
+                            alert.showAndWait();
+                        }
 
                     } else {
-                        System.out.println("РІ РЅРѕРјРµСЂРµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ С‚РѕР»СЊРєРѕ С†С‹С„СЂС‹");
+                        System.out.println("в номере должны быть только цыфры");
                     }
                 } else {
-                    System.out.println("РЅРµРІРµСЂРЅР°СЏ РґР»РёРЅР° РЅРѕРјРµСЂР°!");
+                    System.out.println("неверная длина номера!");
                 }
 
             }
@@ -204,7 +229,7 @@ public class Main2WithJavaFX extends Application {
                         list.remove(selectedIndex);
                     } else {
                         Conversation conversation = (Conversation) list.get(selectedIndex);
-                        conversationDAO.deleteConversation(conversation);
+                        conversationDAO.deleteConversation(conversation.getID());
 
                         list.remove(selectedIndex);
                     }
@@ -239,45 +264,45 @@ public class Main2WithJavaFX extends Application {
                         list.addAll(subscriberToUpdate);
 
                     } else {
-                        System.out.println("РІ РЅРѕРјРµСЂРµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ С‚РѕР»СЊРєРѕ С†С‹С„СЂС‹");
+                        System.out.println("в номере должны быть только цыфры");
                     }
                 } else {
-                    System.out.println("РЅРµРІРµСЂРЅР°СЏ РґР»РёРЅР° РЅРѕРјРµСЂР°!");
+                    System.out.println("неверная длина номера!");
                 }
 
 
             } else {
 
-                String numberSubWhoCall = textFieldConversationSubWhoCall.getText();
-                String numberCalledSub = textFielConversatinCalledSub.getText();
-
-                //validation and add
-                if (numberSubWhoCall.length() == 7 & numberCalledSub.length() == 7) {
-                    if (numberSubWhoCall.matches(regex) & numberCalledSub.matches(regex)) {
-
-                        list.remove(conversationToUpdate);
-
-                        String id1 = conversationToUpdate.getSubWhoCallId();
-                        String id2 = conversationToUpdate.getCalledSubId();
-
-                        conversationToUpdate.setSubWhoCallId(numberSubWhoCall);
-                        conversationToUpdate.setCalledSubId(numberCalledSub);
-
-                        conversationDAO.updateConversation(conversationToUpdate,id1,id2);
-                        list.add(conversationToUpdate);
-
-                    } else {
-                        System.out.println("РІ РЅРѕРјРµСЂРµ РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ С‚РѕР»СЊРєРѕ С†С‹С„СЂС‹");
-                    }
-                } else {
-                    System.out.println("РЅРµРІРµСЂРЅР°СЏ РґР»РёРЅР° РЅРѕРјРµСЂР°!");
-                }
+//                String numberSubWhoCall = textFieldConversationSubWhoCall.getText();
+//                String numberCalledSub = textFielConversatinCalledSub.getText();
+//
+//                //validation and add
+//                if (numberSubWhoCall.length() == 7 & numberCalledSub.length() == 7) {
+//                    if (numberSubWhoCall.matches(regex) & numberCalledSub.matches(regex)) {
+//
+//                        list.remove(conversationToUpdate);
+//
+//                        String id1 = conversationToUpdate.getSubWhoCallId();
+//                        String id2 = conversationToUpdate.getCalledSubId();
+//
+//                        conversationToUpdate.setSubWhoCallId(numberSubWhoCall);
+//                        conversationToUpdate.setCalledSubId(numberCalledSub);
+//
+//                        conversationDAO.updateConversation(conversationToUpdate,id1,id2);
+//                        list.add(conversationToUpdate);
+//
+//                    } else {
+//                        System.out.println("в номере должны быть только цыфры");
+//                    }
+//                } else {
+//                    System.out.println("неверная длина номера!");
+//                }
 
             }
         });
     }
 
-    //////РЁС‚СѓРєРё РґР»СЏ РґРёР°Р»РѕРіРѕРІРѕРіРѕ РѕРєРЅР° СЃ С‚Р°Р±Р»РёС†РµР№//////
+    //////Штуки для диалогового окна с таблицей//////
     private void menuWithTableAddInfoPickers(AnchorPane root) {
         if (isItASubscriberTable) {
             Label labelSubNumber = UtilsUI.createLabel(root, "Subscriber number", 50, 10, 150, 30);
@@ -299,7 +324,7 @@ public class Main2WithJavaFX extends Application {
         }
     }
 
-    //////РЁС‚СѓРєРё РґР»СЏ РґРёР°Р»РѕРіРѕРІРѕРіРѕ РѕРєРЅР° СЃ С‚Р°Р±Р»РёС†РµР№//////
+    //////Штуки для диалогового окна с таблицей//////
     private void menuWithTableAddTables(AnchorPane root) {
         table = new TableView<>();
         table.setTranslateX(10);
@@ -311,6 +336,7 @@ public class Main2WithJavaFX extends Application {
             createTableColumn(table, "Number");
             createTableColumn(table, "Available");
         } else {
+            createTableColumn(table, "ID");
             createTableColumn(table, "SubWhoCallId");
             createTableColumn(table, "CalledSubId");
         }
@@ -318,7 +344,7 @@ public class Main2WithJavaFX extends Application {
         root.getChildren().addAll(table);
     }
 
-    //////Р’СЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ РґР»СЏ menuWithTableAddTables()//////
+    //////Вспомогательный для menuWithTableAddTables()//////
     private TableColumn<AllEntitysParent, String> createTableColumn(
             TableView<AllEntitysParent> table, String name) {
 
@@ -336,7 +362,7 @@ public class Main2WithJavaFX extends Application {
         return tmp;
     }
 
-    //////Р’СЃРїРѕРјРѕРіР°С‚РµР»СЊРЅС‹Р№ РґР»СЏ menuWithTableAddTables()//////
+    //////Вспомогательный для menuWithTableAddTables()//////
     private static ObservableList<AllEntitysParent> readAllForDB() {
 
         if (isItASubscriberTable) {
@@ -354,7 +380,7 @@ public class Main2WithJavaFX extends Application {
         return list;
     }
 
-    //////Р”РёР°Р»РѕРіРѕРІРѕРµ РѕРєРЅРѕ//////
+    //////Диалоговое окно//////
     private static AnchorPane createSmallStage(Stage owner, String stageName) {
         Stage createStage = new Stage();
         createStage.setTitle(stageName);
